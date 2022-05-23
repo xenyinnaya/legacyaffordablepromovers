@@ -1,0 +1,145 @@
+body {
+
+    background-color: whitesmoke;
+}
+
+header {
+    background-color: rgb(184, 204, 221);
+    text-align: left;
+    height: 118px;
+    width: auto;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+nav {
+    text-align: right;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+main {
+    background-image: image("pexels-rodnae.jpg");
+    height: 400px;
+    width: auto;
+}
+img {
+    height: 450px;
+    width: 1333px;
+}
+.About {
+    text-align: center;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 24px;
+}
+section {
+    background-color: rgb(255, 0, 85);
+    height: fit-content;
+    column-width: auto;
+    text-align: center;
+}
+section {
+
+    background-color: aqua;
+    height: fit-content;
+    column-width: auto;
+    text-align: center;
+}
+section {
+    background-color: whitesmoke;
+    height: 400px;
+    width: auto;
+}
+a {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(48, 40, 30);
+    padding-left: 14px;
+    padding-top: 14px;
+    padding-bottom: 14px; 
+}
+nav a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.733);
+    font-size: 20px;
+    padding-right: 14px
+}
+/* Style inputs with type="text", select elements and textareas *//*stattiing from here is contact form css code*/
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  footer {
+    background-color: rgb(110, 110, 187);
+    height: 118px;
+    width: auto;
+}
+    /*starting from here is the about us us css form code*/
+    * {
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      
+      /* Float four columns side by side */
+      .column {
+        float: left;
+        width: 25%;
+        padding: 0 10px;
+      }
+      
+      /* Remove extra left and right margins, due to padding in columns */
+      .row {margin: 0 -5px;}
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      /* Style the counter cards */
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+        padding: 16px;
+        text-align: center;
+        background-color: #f1f1f1;
+      }
+      
+      /* Responsive columns - one column layout (vertical) on small screens */
+      @media screen and (max-width: 600px) {
+        .column {
+          width: 100%;
+          display: block;
+          margin-bottom: 20px;
+        }
+      }
